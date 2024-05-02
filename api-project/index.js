@@ -1,14 +1,15 @@
-const express = require('express');
-const app = express()
-const connect = require('./connection')
-const User = require('./models/User')
+const express = require("express");
+const app = express();
+const connect = require("./connection");
+const User = require("./models/User");
 
-connect()
+connect();
 
-app.listen(3000, (error)=>{
-    if(error){
-        console.log(error)
-    }else{
-        console.log("Server is running on 3000")
-    }
-})
+app.listen(3000, (error) => {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log("Server is running on 3000");
+    //for github
+  }
+});

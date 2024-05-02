@@ -5,3 +5,4 @@ const UserController = require("../controllers/UserController");
 router.post("/SignUp", (req, res) => {
   UserController.createUser(req, res);
 });
+//mod
